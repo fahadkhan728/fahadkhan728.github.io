@@ -1,12 +1,14 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #333;
 }
 
 header {
-  background: #333;
+  background: #002b5c; /* Navy blue */
   color: #fff;
   padding: 10px 0;
 }
@@ -26,17 +28,32 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
 }
 
 .banner {
-  background: url('banner-image.jpg') no-repeat center center/cover;
+  background: #004080; /* Darker navy blue */
   color: #fff;
   text-align: center;
   padding: 100px 0;
 }
 
-.main {
+.intro, .about, .experience, .skills, .testimonials, .services, .portfolio, .contact {
   padding: 20px;
+  background: #f4f4f4; /* Light grey */
+  margin: 20px auto;
+  max-width: 1000px;
 }
 
-.intro, .about, .experience, .skills, .testimonials, .services, .portfolio, .
+h1, h2 {
+  color: #002b5c; /* Navy blue */
+}
+
+.service, .project {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 
